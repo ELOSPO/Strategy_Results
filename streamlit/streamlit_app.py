@@ -125,8 +125,8 @@ def main():
     st.markdown(f"**Investment Recommendation 15 days ahead:** {get_recommendation(df_pred,stock,15)}")
     # st.markdown(f"**Investment Recommendation 5 days ahead:** {get_recommendation(df_pred,stock,25)}")
 
-    st.write(f'Model percentual error for {stock} in test is {round(df_mape[stock].iloc[0]*100,2)}%')
-    st.write(f'Model Out of time error for {stock} is {round(mean_oot*100,2)}%')
+    # st.write(f'Model percentual error for {stock} in test is {round(df_mape[stock].iloc[0]*100,2)}%')
+    # st.write(f'Model Out of time error for {stock} is {round(mean_oot*100,2)}%')
     
     # print(df_pred[stock])
     performances = []
