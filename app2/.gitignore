@@ -1,0 +1,5 @@
+# Ignorar datos si no se quieren subir al repo público
+# (descomentar para excluirlos del deploy)
+# data/
+__pycache__/
+*.pyc
